@@ -1,18 +1,19 @@
 const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
 
-const url = "mongodb://localhost:27017";
+//const url = "mongodb://localhost:27017";
+const url = "mongodb+srv://admin:5ogKY9VxkNsBxY88@cluster0.an4lqm4.mongodb.net";
 const dbName = "ocean_bancodados_19_07_2022";
 
 async function main() {
-  /*
+  
   console.log("Conectando ao banco de dados...");
 
   const client = await MongoClient.connect(url);
   const db = client.db(dbName);
   const collection = db.collection("herois");
 
-  console.log("Banco de dados conectado com sucesso!");*/
+  console.log("Banco de dados conectado com sucesso!");
 
   // Aplicação Backend com Express
 
